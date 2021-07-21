@@ -5,7 +5,7 @@ import { Test1, Test2 } from './android/app/src/components'
 
 const Tab = createBottomTabNavigator();
 
-const TabNav = () => {
+const App = () => {
   return (
     <Tab.Navigator >
       <Tab.Screen name="test1" component={Test1}/>
@@ -14,4 +14,4 @@ const TabNav = () => {
   )
 }
 
-export default TabNav;
+export default App;
